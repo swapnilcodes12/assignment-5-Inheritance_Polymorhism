@@ -36,10 +36,10 @@ public class Car extends Vehicle {
 
     public void setFuelType(byte fuelType) {
         if(fuelType == 1){
-            this.fuelType = (byte) fuelType;
+            this.fuelType = fuelType;
             this.fuelType1 = "Petrol";
         }else if(fuelType == 2){
-            this.fuelType = (byte) fuelType;
+            this.fuelType = fuelType;
             this.fuelType1 = "Disel";
         }
     }
